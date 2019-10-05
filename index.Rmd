@@ -1,0 +1,31 @@
+---
+title: "A Mini Cutie Bookie"
+author: "Rannie Lin"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  output_dir: "docs"
+  #bookdown::pdf_book: default
+---
+
+# The Only Chapter in This Book
+
+Let's see my favourite piece of code:
+
+```{r fun 1}
+print('(￣▽￣)')
+```
+
+How about this one? Do you like this face?
+```{r fun 2}
+print('(´･_･`)')
+```
+
+Here is a picture I took during the trip to Alaska:
+![](./imgs/pic1.JPG)
+
+It was a beautiful trip!
+
+<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
+
